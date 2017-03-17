@@ -1,9 +1,12 @@
 <main>
-  <h1 class="title">Hello from Angular !</h1>
+<nav class = "nav">
+  <a ui-sref="default">Home</a>
+  <a ui-sref="aww"u>Aww</a>
+  <a ui-sref="mechanicalkeyboards">Mechanical Keyboards</a>
+  <a ui-sref="programmerhumor">Programmer Humour</a>
 
-  <!-- Images (and assets) are parsed and loaded from within the public directory -->
+</nav>
+  <h1 class="title">Waddup Bitches!</h1>
+<section ui-view></section>
   <img src="/img/logo.png">
 </main>
-<footer>
-  <a ng-href="{{app.url}}">Webpack Angular Starter</a>
-</footer>
